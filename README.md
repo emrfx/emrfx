@@ -1,16 +1,26 @@
-## Hi there 👋
+# 👋 Selam, ben Efe Emre!
 
-<!--
-**emrfx/emrfx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Bilgisayar Teknolojisi öğrencisiyim. Kod yazmayı seviyorum, özellikle de **web geliştirme**, **otomasyon sistemleri** ve **yapay zekâ destekli projeler** alanlarına ilgi duyuyorum.
 
-Here are some ideas to get you started:
+🚀 Şu anda üzerinde çalıştığım projeler:
+- 👨‍💻 **Online Randevu Sistemi** (AI destekli)
+- 🍽️ QR Kodlu Restoran Sipariş Takip Sistemi
+- 🛡️ Siber Güvenlik Temelli Öğrenci Bitirme Projesi
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔧 Kullandığım teknolojiler:
+- HTML, CSS, JavaScript
+- PHP & MySQL
+- Python (Flask, SQLite, otomasyon scriptleri)
+- Git & GitHub
+- VSCode 💙
+
+📊 GitHub İstatistiklerim:
+![Efe Emre'nin GitHub Stats'ı](https://github-readme-stats.vercel.app/api?username=KULLANICIADIN&show_icons=true&theme=tokyonight)
+
+📫 Bana ulaş:
+- 📧 efeemrebakirozu@example.com *(maili güncelle knk)*
+- 📷 Instagram: [@efeemre.dev](https://instagram.com/efeemre.dev) *(varsa link bırak yoksa çıkarırız)*
+
+---
+
+✨ Hedefim: Sürekli gelişmek, öğrenmek ve güzel işler üretmek.
