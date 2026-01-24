@@ -1,143 +1,129 @@
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=190&section=header&text=Efe%20Emre%20Bak%C4%B1r%C3%B6z%C3%BC&fontSize=42&fontAlignY=35&desc=Full-Stack%20Developer%20•%20Automation%20•%20AI&descAlignY=62"
-    alt="header"
-  />
-</p>
-
-<p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME"><b>GitHub</b></a> •
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><b>LinkedIn</b></a> •
-  <a href="https://YOUR_WEBSITE.com"><b>Website</b></a> •
-  <a href="mailto:YOURMAIL@example.com"><b>Mail</b></a>
-</p>
-
-<p align="center">
-  <img src="https://progress-bar.xyz/100/?title=Open%20to%20Collaboration&width=420" alt="status" />
-</p>
-
-<hr/>
-
-## 👋 About
-
-I build **production-ready web apps**, **automation scripts**, and **AI-assisted tools**.
-I care about **clean architecture**, **readability**, and **shipping**.
-
-- 🧩 Full-stack: API + SPA
-- ⚙️ Automation: scripting, CLI tools, pipelines
-- 📈 Product mindset: measurable, maintainable, scalable
-
-<hr/>
-
-## 🧰 Tech Stack
-
-<p align="center">
-  <img alt="Python" src="https://skillicons.dev/icons?i=python,js,ts,react,django,nodejs,postgres,docker,linux,vscode,powershell,github,html,css,git&theme=dark" />
-</p>
-
-<hr/>
-
-## 📊 Skill Progress
-
+<!--header-->
 <table>
-  <tr>
-    <td><b>Backend (Django/DRF)</b></td>
-    <td><img src="https://progress-bar.xyz/82/?title=Backend&width=360" alt="Backend"></td>
-    <td align="right"><b>82%</b></td>
-  </tr>
-  <tr>
-    <td><b>Frontend (React)</b></td>
-    <td><img src="https://progress-bar.xyz/76/?title=Frontend&width=360" alt="Frontend"></td>
-    <td align="right"><b>76%</b></td>
-  </tr>
-  <tr>
-    <td><b>Automation (PowerShell/Python)</b></td>
-    <td><img src="https://progress-bar.xyz/80/?title=Automation&width=360" alt="Automation"></td>
-    <td align="right"><b>80%</b></td>
-  </tr>
-  <tr>
-    <td><b>Databases (PostgreSQL)</b></td>
-    <td><img src="https://progress-bar.xyz/70/?title=Databases&width=360" alt="DB"></td>
-    <td align="right"><b>70%</b></td>
-  </tr>
-  <tr>
-    <td><b>DevOps (Docker/Linux)</b></td>
-    <td><img src="https://progress-bar.xyz/62/?title=DevOps&width=360" alt="DevOps"></td>
-    <td align="right"><b>62%</b></td>
-  </tr>
+  <tr><td colspan="2"><a href="/README.md#-plugins">← Back to plugins index</a></td></tr>
+  <tr><th colspan="2"><h3>📌 Starred topics</h3></th></tr>
+  <tr><td colspan="2" align="center"><p>This plugin displays <a href="https://github.com/stars?filter=topics">starred topics</a>.</p>
+<p>Check out <a href="https://github.com/topics">GitHub topics</a> to search interesting topics.</p>
+</td></tr>
+  <tr><th>⚠️ Disclaimer</th><td><p>This plugin is not affiliated, associated, authorized, endorsed by, or in any way officially connected with <a href="https://github.com">GitHub</a>.
+All product and company names are trademarks™ or registered® trademarks of their respective holders.</p>
+</td></tr>
+  <tr>
+    <th rowspan="3">Supported features<br><sub><a href="metadata.yml">→ Full specification</a></sub></th>
+    <td><a href="/source/templates/classic/README.md"><code>📗 Classic template</code></a> <a href="/source/templates/markdown/README.md"><code>📒 Markdown template</code></a></td>
+  </tr>
+  <tr>
+    <td><code>👤 Users</code></td>
+  </tr>
+  <tr>
+    <td><i>No tokens are required for this plugin</i></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <details open><summary>With icons</summary><img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.topics.icons.svg" alt=""></img></details>
+      <details open><summary>With labels</summary><img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.topics.svg" alt=""></img></details>
+      <img width="900" height="1" alt="">
+    </td>
+  </tr>
 </table>
+<!--/header-->
 
-<hr/>
+## ➡️ Available options
 
-## 🛠️ Advanced GitHub Metrics
-
+<!--options-->
 <table>
-  <tr><th colspan="2"><h3>📌 Starred topics</h3></th></tr>
-  <tr>
-    <td colspan="2" align="center">
-      <p>Displays tech interests via GitHub Topics.</p>
-      <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/main/github-metrics-topics.svg" alt="Topics Metrics">
-    </td>
-  </tr>
+  <tr>
+    <td align="center" nowrap="nowrap">Option</i></td><td align="center" nowrap="nowrap">Description</td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_topics</code></h4></td>
+    <td rowspan="2"><p>Enable topics plugin</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+<ul>
+<li><i>metrics.run.puppeteer.scrapping</i></li>
+</ul>
+<b>type:</b> <code>boolean</code>
+<br>
+<b>default:</b> no<br></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_topics_mode</code></h4></td>
+    <td rowspan="2"><p>Display mode</p>
+<ul>
+<li><code>labels</code>: display labels</li>
+<li><code>icons</code>: display icons <em>(topics without icons will not be displayed)</em></li>
+<li><code>starred</code>: alias for <code>labels</code></li>
+<li><code>mastered</code>: alias for <code>icons</code></li>
+</ul>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+<br>
+<b>default:</b> starred<br>
+<b>allowed values:</b><ul><li>labels</li><li>icons</li><li>starred</li><li>mastered</li></ul></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_topics_sort</code></h4></td>
+    <td rowspan="2"><p>Sorting method</p>
+<ul>
+<li><code>stars</code>: sort by most stars</li>
+<li><code>activity</code>: sort by recent activity</li>
+<li><code>starred</code>: sort by starred date</li>
+<li><code>random</code>: sort randomly</li>
+</ul>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+<br>
+<b>default:</b> stars<br>
+<b>allowed values:</b><ul><li>stars</li><li>activity</li><li>starred</li><li>random</li></ul></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><h4><code>plugin_topics_limit</code></h4></td>
+    <td rowspan="2"><p>Display limit</p>
+<img width="900" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+<i>(0 ≤
+𝑥
+≤ 20)</i>
+<br>
+<b>zero behaviour:</b> disable</br>
+<b>default:</b> 15<br></td>
+  </tr>
 </table>
+<!--/options-->
 
-<table>
-  <tr><th colspan="2"><h3>💫 Star lists</h3></th></tr>
-  <tr>
-    <td colspan="2" align="center">
-      <p>Repositories and Languages from my curated star lists.</p>
-      <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/main/github-metrics-starlists.svg" alt="Starlists Metrics">
-    </td>
-  </tr>
-</table>
+## ℹ️ Examples workflows
 
-<table>
-  <tr><th colspan="2"><h3>✨ Stargazers & Worldmap</h3></th></tr>
-  <tr>
-    <td colspan="2" align="center">
-      <p>Stargazers evolution and global reach map.</p>
-      <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/main/github-metrics-stargazers.svg" alt="Stargazers Metrics">
-    </td>
-  </tr>
-</table>
+<!--examples-->
+```yaml
+name: Labels
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.topics.svg
+  token: NOT_NEEDED
+  base: ""
+  plugin_topics: yes
+  plugin_topics_limit: 12
 
-<hr/>
+```
+```yaml
+name: Icons
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.topics.icons.svg
+  token: NOT_NEEDED
+  base: ""
+  plugin_topics: yes
+  plugin_topics_limit: 0
+  plugin_topics_mode: icons
 
-## 📈 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&theme=radical" height="170" />
-  <img src="https://streak-stats.demolab.com/?user=YOUR_GITHUB_USERNAME&hide_border=true&theme=radical" height="170" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&hide_border=true&area=true&theme=github-dark" width="100%" />
-</p>
-
-<hr/>
-
-## 🧩 Featured Repositories
-
-<p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_1&theme=radical&hide_border=true" />
-  </a>
-  <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_2&theme=radical&hide_border=true" />
-  </a>
-</p>
-
-<hr/>
-
-## 🤝 Contact
-
-- Email: **YOURMAIL@example.com**
-- LinkedIn: **YOUR_LINKEDIN**
-- Location: **Türkiye / Remote**
-
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:0ea5e9&height=120&section=footer"
-    alt="footer"
-  />
-</p>
+```
+<!--/examples--> bu 1
