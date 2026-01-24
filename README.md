@@ -1,7 +1,7 @@
-<!--header-->
+
 <table>
   <tr><td colspan="2"><a href="/README.md#-plugins">← Back to plugins index</a></td></tr>
-  <tr><th colspan="2"><h3>📌 Starred topics</h3></th></tr>
+  <tr><th colspan="2"><h3>📌 Tech Stack</h3></th></tr>
   <tr><td colspan="2" align="center"><p>This plugin displays <a href="https://github.com/stars?filter=topics">starred topics</a>.</p>
 <p>Check out <a href="https://github.com/topics">GitHub topics</a> to search interesting topics.</p>
 </td></tr>
