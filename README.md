@@ -31,7 +31,20 @@ Backend-first geliştiriciyim. Temiz API, sağlam veri modeli, sürdürülebilir
 ## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,js,ts,react,html,css,postgres,git,docker,linux,vscode&perline=12" alt="skills" />
+  <!-- Kali Linux (dark/light) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons-main/icons/Kali-Dark.svg" />
+    <img alt="Kali Linux" src="./skill-icons-main/icons/Kali-Light.svg" width="56" height="56" />
+  </picture>
+</p>
+
+<p align="center">
+  <!-- Attığın görseldeki TÜM logolar -->
+  <img
+    src="./assets/tech-stack.png"
+    alt="Tech stack logos"
+    style="max-width: 100%; height: auto; border-radius: 14px;"
+  />
 </p>
 
 ---
@@ -76,8 +89,6 @@ Backend-first geliştiriciyim. Temiz API, sağlam veri modeli, sürdürülebilir
   </tr>
 </table>
 
-> Yüzdeleri istediğin gibi değiştir: `progress-bar.dev/82/` kısmındaki sayıyı güncellemen yeterli.
-
 ---
 
 ## 🚀 Şu an odak
@@ -91,8 +102,6 @@ Backend-first geliştiriciyim. Temiz API, sağlam veri modeli, sürdürülebilir
 
 ## 🧩 Featured Projects
 
-> Repo isimlerini birebir yaz: `REPO_1` → örn: `mindnexqua` gibi (public olmalı).
-
 <p align="center">
   <a href="https://github.com/YOUR_GITHUB_USERNAME/REPO_1">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=REPO_1&hide_border=true" alt="repo1" />
@@ -104,7 +113,7 @@ Backend-first geliştiriciyim. Temiz API, sağlam veri modeli, sürdürülebilir
 
 ---
 
-## 📈 GitHub Analytics (DÜZELTİLMİŞ)
+## 📈 GitHub Analytics
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&include_all_commits=true&hide_border=true&cache_seconds=86400" alt="stats" />
