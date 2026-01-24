@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=120&section=header&text=✨%20Stargazers%20Analytics&fontSize=30" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=120&section=header&text=✨%20Stargazers%20Analytics&fontSize=30" width="100%" alt="Stargazers Header" />
 </p>
 
 <table width="100%">
@@ -27,12 +27,18 @@
     <td colspan="2" align="center">
       <br />
       <details open><summary><b>📈 Grafik Görünümü (Classic)</b></summary>
-        <img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stargazers.svg" alt="Classic Chart" />
+        <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/metrics.plugin.stargazers.svg">
+          <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/metrics.plugin.stargazers.svg" alt="Classic Chart - Click to view" />
+        </a>
       </details>
+      
       <details><summary><b>🌐 Dünya Haritası (Worldmap)</b></summary>
-        <img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stargazers.worldmap.svg" alt="Worldmap" />
+        <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/metrics.plugin.stargazers.worldmap.svg">
+          <img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/metrics.plugin.stargazers.worldmap.svg" alt="Worldmap - Click to view" />
+        </a>
       </details>
-      <img width="900" height="1" alt="">
+      
+      <img width="900" height="1" alt="spacer">
     </td>
   </tr>
 </table>
@@ -51,3 +57,46 @@
       <td><code>plugin_stargazers</code></td>
       <td>Eklentiyi aktif eder.</td>
       <td><b>no</b></td>
+    </tr>
+    <tr>
+      <td><code>plugin_stargazers_charts_type</code></td>
+      <td>Grafik tipi: <code>classic</code> (hafif) veya <code>graph</code> (pürüzsüz).</td>
+      <td><b>classic</b></td>
+    </tr>
+    <tr>
+      <td><code>plugin_stargazers_days</code></td>
+      <td>Analiz edilecek gün sayısı (0 = hesap açılışından beri).</td>
+      <td><b>14</b></td>
+    </tr>
+    <tr>
+      <td><code>plugin_stargazers_worldmap</code></td>
+      <td>Yıldız verenlerin dünya haritasını gösterir.</td>
+      <td><b>no</b></td>
+    </tr>
+  </tbody>
+</table>
+
+## ℹ️ Örnek Workflow (YAML)
+
+> **Pro Tip:** Eğer dünya haritasını kullanmayacaksan Google Maps token'ına ihtiyacın yok.
+
+```yaml
+# 1. Standart Grafik Görünümü
+- uses: lowlighter/metrics@latest
+  with:
+    filename: metrics.plugin.stargazers.svg
+    token: ${{ secrets.METRICS_TOKEN }}
+    base: ""
+    plugin_stargazers: yes
+    plugin_stargazers_charts_type: graph
+
+# 2. Dünya Haritası Görünümü (Google Maps API Gerekli)
+- uses: lowlighter/metrics@latest
+  with:
+    filename: metrics.plugin.stargazers.worldmap.svg
+    token: ${{ secrets.METRICS_TOKEN }}
+    base: ""
+    plugin_stargazers: yes
+    plugin_stargazers_charts: no
+    plugin_stargazers_worldmap: yes
+    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
