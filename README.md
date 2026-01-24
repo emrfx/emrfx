@@ -1,11 +1,7 @@
-<!--
-README uses local icons from: ./skill-icons/icons/
-Icons credit: https://github.com/tandpfun/skill-icons
--->
-
 <h1 align="center">Hi, I'm Efe Emre 👋</h1>
+
 <p align="center">
-  <b>Software Developer</b> • Building practical web apps • Learning & shipping every day
+  <b>Software Developer</b> • Backend & Frontend • Building clean, useful apps
 </p>
 
 <p align="center">
@@ -20,90 +16,45 @@ Icons credit: https://github.com/tandpfun/skill-icons
 ## 🧩 Tech Stack
 
 <p align="center">
-  <!-- Theme-aware icons (Dark/Light) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/Python-Dark.svg" />
-    <img alt="Python" src="./skill-icons/icons/Python-Light.svg" width="48" height="48" />
-  </picture>
-
-  <img alt="Django" src="./skill-icons/icons/Django.svg" width="48" height="48" />
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/React-Dark.svg" />
-    <img alt="React" src="./skill-icons/icons/React-Light.svg" width="48" height="48" />
-  </picture>
-
-  <img alt="JavaScript" src="./skill-icons/icons/JavaScript.svg" width="48" height="48" />
-  <img alt="TypeScript" src="./skill-icons/icons/TypeScript.svg" width="48" height="48" />
-  <img alt="HTML" src="./skill-icons/icons/HTML.svg" width="48" height="48" />
-  <img alt="CSS" src="./skill-icons/icons/CSS.svg" width="48" height="48" />
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/PostgreSQL-Dark.svg" />
-    <img alt="PostgreSQL" src="./skill-icons/icons/PostgreSQL-Light.svg" width="48" height="48" />
-  </picture>
-
-  <img alt="Git" src="./skill-icons/icons/Git.svg" width="48" height="48" />
-  <img alt="Docker" src="./skill-icons/icons/Docker.svg" width="48" height="48" />
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/Linux-Dark.svg" />
-    <img alt="Linux" src="./skill-icons/icons/Linux-Light.svg" width="48" height="48" />
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/Powershell-Dark.svg" />
-    <img alt="PowerShell" src="./skill-icons/icons/Powershell-Light.svg" width="48" height="48" />
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/VSCode-Dark.svg" />
-    <img alt="VS Code" src="./skill-icons/icons/VSCode-Light.svg" width="48" height="48" />
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/Vite-Dark.svg" />
-    <img alt="Vite" src="./skill-icons/icons/Vite-Light.svg" width="48" height="48" />
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./skill-icons/icons/TailwindCSS-Dark.svg" />
-    <img alt="TailwindCSS" src="./skill-icons/icons/TailwindCSS-Light.svg" width="48" height="48" />
-  </picture>
+  <img src="./icons/Python-Dark.svg" width="46" height="46" alt="Python" />
+  <img src="./icons/Django.svg" width="46" height="46" alt="Django" />
+  <img src="./icons/JavaScript.svg" width="46" height="46" alt="JavaScript" />
+  <img src="./icons/TypeScript.svg" width="46" height="46" alt="TypeScript" />
+  <img src="./icons/React-Dark.svg" width="46" height="46" alt="React" />
+  <img src="./icons/Vite-Dark.svg" width="46" height="46" alt="Vite" />
+  <img src="./icons/TailwindCSS-Dark.svg" width="46" height="46" alt="TailwindCSS" />
+  <img src="./icons/PostgreSQL-Dark.svg" width="46" height="46" alt="PostgreSQL" />
+  <img src="./icons/Docker.svg" width="46" height="46" alt="Docker" />
+  <img src="./icons/Git.svg" width="46" height="46" alt="Git" />
+  <img src="./icons/Linux-Dark.svg" width="46" height="46" alt="Linux" />
+  <img src="./icons/Powershell-Dark.svg" width="46" height="46" alt="PowerShell" />
+  <img src="./icons/VSCode-Dark.svg" width="46" height="46" alt="VS Code" />
 </p>
 
 <p align="center">
-  <i>Backend</i>: Python, Django • <i>Frontend</i>: React, TS/JS • <i>DB</i>: PostgreSQL • <i>Tools</i>: Git, Docker, Linux, PowerShell
+  <i>Python • Django • React • TypeScript • PostgreSQL • Docker</i>
 </p>
 
 ---
 
-## 🚀 What I do
+## 🚀 What I’m focused on
 
-- Build **clean, fast web apps** (API + SPA)
-- Care about **readability, testing, and long-term maintainability**
-- Turn messy requirements into **simple, shippable features**
-
----
-
-## 🧠 Currently improving
-
-- System design basics (scaling, caching, queues)
-- Advanced Django patterns (permissions, performance, async tasks)
-- Frontend architecture (routing, state, reusable UI)
+- Building **production-ready** web apps (API + SPA)
+- Writing **clean, maintainable code**
+- Improving **performance & UX** with practical patterns
 
 ---
 
-## 📌 Featured Projects (edit these)
+## 📌 Featured Projects
 
-- **Project A** — Short one-liner (tech: Django + React)  
-  Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_A
+- **Project One** — One-liner about what it does  
+  Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_ONE
 
-- **Project B** — Short one-liner (tech: API + DB)  
-  Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_B
+- **Project Two** — One-liner about what it does  
+  Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_TWO
 
-- **Project C** — Short one-liner (tech: automation / tooling)  
-  Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_C
+- **Project Three** — One-liner about what it does  
+  Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_THREE
 
 ---
 
@@ -137,8 +88,7 @@ Icons credit: https://github.com/tandpfun/skill-icons
 - Mail: efeemrebakirozu80@gmail.com
 - LinkedIn: https://www.linkedin.com/in/efe-emre-bakirözü-1246322b7/
 
+
 ---
 
-### 🧾 Notes
-- Icons are loaded locally from `./skill-icons/icons/`
-- Icon pack credit: https://github.com/tandpfun/skill-icons
+<sub>Icons: local SVGs from the skill-icons pack in this repo.</sub>
