@@ -102,28 +102,3 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ## ℹ️ Examples workflows
 
-<!--examples-->
-```yaml
-name: Labels
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.topics.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_topics: yes
-  plugin_topics_limit: 12
-
-```
-```yaml
-name: Icons
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.topics.icons.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_topics: yes
-  plugin_topics_limit: 0
-  plugin_topics_mode: icons
-
-```
-<!--/examples--> bu 1
