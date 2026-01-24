@@ -1,282 +1,129 @@
-<!--header-->
-<table>
-  <tr><td colspan="2"><a href="/README.md#-skills">← Back to skills index</a></td></tr>
-  <tr><th colspan="2"><h3>📌 Starred topics</h3></th></tr>
 
-  <tr>
-    <td colspan="2" align="center">
-      <p>
-        This section displays <b>my developer skill snapshot</b> (self-rating) with <b>percentages</b> + icons from my repo.
-      </p>
-      <p>
-        Main focus: <b>Python/Django</b> backend + <b>React</b> SPA, plus tooling & automation.
-      </p>
-    </td>
-  </tr>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&text=Efe%20Emre%20Bak%C4%B1r%C3%B6z%C3%BC&fontAlign=50&fontAlignY=35&fontSize=36&desc=Software%20Developer%20%E2%80%A2%20Backend%20%2B%20Frontend%20%E2%80%A2%20Build%20%7C%20Ship%20%7C%20Improve&descAlign=50&descAlignY=60" />
+</p>
 
-  <tr>
-    <th>⚠️ Disclaimer</th>
-    <td>
-      <p>
-        Percentages are <b>self-assessed</b> and change as I learn/build more.
-        Icons are loaded locally from <code>skill-icons-main/icons/</code>.
-      </p>
-    </td>
-  </tr>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&center=true&vCenter=true&width=720&lines=Backend-first+developer+who+likes+clean+APIs;React+SPA+%2B+Django%2FDRF+%2B+PostgreSQL;Automation+%E2%80%A2+Tooling+%E2%80%A2+Practical+engineering+habits" />
+</p>
 
-  <tr>
-    <th rowspan="3">Supported features<br><sub><a href="/README.md#-skills">→ Full specification</a></sub></th>
-    <td>
-      <a href="/README.md#-skills"><code>📗 Fullstack</code></a>
-      <a href="/README.md#-skills"><code>📒 Backend-first</code></a>
-      <a href="/README.md#-skills"><code>📘 Automation</code></a>
-    </td>
-  </tr>
-  <tr>
-    <td><code>👤 Web apps</code> <code>⚙️ APIs</code> <code>🗄️ Databases</code> <code>🧰 Tooling</code></td>
-  </tr>
-  <tr>
-    <td><i>No external services required (local SVG icons)</i></td>
-  </tr>
+<p align="center">
+  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-YOUR_GITHUB_USERNAME-black?logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" />
+  </a>
+  <a href="mailto:YOURMAIL@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact-informational?logo=gmail" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat" />
+</p>
 
-  <tr>
-    <td colspan="2" align="center">
-      <details open>
-        <summary>With icons</summary>
-        <p>
-          <img src="skill-icons-main/icons/Python-Dark.svg" width="42" height="42" alt="Python" />
-          <img src="skill-icons-main/icons/Django.svg" width="42" height="42" alt="Django" />
-          <img src="skill-icons-main/icons/JavaScript.svg" width="42" height="42" alt="JavaScript" />
-          <img src="skill-icons-main/icons/TypeScript.svg" width="42" height="42" alt="TypeScript" />
-          <img src="skill-icons-main/icons/React-Dark.svg" width="42" height="42" alt="React" />
-          <img src="skill-icons-main/icons/PostgreSQL-Dark.svg" width="42" height="42" alt="PostgreSQL" />
-          <img src="skill-icons-main/icons/Git.svg" width="42" height="42" alt="Git" />
-          <img src="skill-icons-main/icons/Docker.svg" width="42" height="42" alt="Docker" />
-          <img src="skill-icons-main/icons/Linux-Dark.svg" width="42" height="42" alt="Linux" />
-          <img src="skill-icons-main/icons/Powershell-Dark.svg" width="42" height="42" alt="PowerShell" />
-          <img src="skill-icons-main/icons/VSCode-Dark.svg" width="42" height="42" alt="VS Code" />
-          <img src="skill-icons-main/icons/Vite-Dark.svg" width="42" height="42" alt="Vite" />
-          <img src="skill-icons-main/icons/TailwindCSS-Dark.svg" width="42" height="42" alt="TailwindCSS" />
-        </p>
-      </details>
+---
 
-      <details open>
-        <summary>With labels</summary>
-        <table>
-          <tr><td><b>Backend</b></td><td>Python, Django/DRF</td></tr>
-          <tr><td><b>Frontend</b></td><td>React, TS/JS, Vite, Tailwind</td></tr>
-          <tr><td><b>DB</b></td><td>PostgreSQL</td></tr>
-          <tr><td><b>Tooling</b></td><td>Git, Docker, Linux, PowerShell, VS Code</td></tr>
-        </table>
-      </details>
+## 👋 Hakkımda (Kısa)
+- **Backend-first** geliştiriciyim: temiz API, sağlam veri modeli, sürdürülebilir kod.
+- Frontend’de **React + TypeScript** ile SPA geliştiriyorum.
+- **Django/DRF + PostgreSQL** ana omurgam.  
+- Otomasyon ve tooling’i severim: script, düzen, standart, “tek tuşla çalışsın”.
 
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-</table>
-<!--/header-->
+---
 
-## ➡️ Available options
+## 🧰 Tech Stack (ikonlu)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,js,ts,react,html,css,postgres,git,docker,linux,vscode&perline=12" />
+</p>
 
-<!--options-->
-<table>
-  <tr>
-    <td align="center" nowrap="nowrap">Option</td>
-    <td align="center" nowrap="nowrap">Description</td>
-  </tr>
+---
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_python</code></h4></td>
-    <td rowspan="2">
-      <p><b>Python — 85%</b> <code>█████████░</code></p>
-      <p>Primary backend language: scripting, APIs, automation.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>language</code><br>
-      <b>level:</b> <code>85%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+## 📈 Skill Snapshot (Yüzdelik + Bar)
+> Bu yüzdeleri tamamen **kendine göre** oynatabilirsin kanka.
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_django_drf</code></h4></td>
-    <td rowspan="2">
-      <p><b>Django / DRF — 80%</b> <code>████████░░</code></p>
-      <p>REST APIs, serializers, auth/permissions, clean endpoints.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>backend</code><br>
-      <b>level:</b> <code>80%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+**Backend**
+- Python — **85%**  `█████████░░`
+- Django / DRF — **80%**  `████████░░`
+- PostgreSQL — **70%**  `███████░░░`
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_javascript</code></h4></td>
-    <td rowspan="2">
-      <p><b>JavaScript — 75%</b> <code>████████░░</code></p>
-      <p>SPA logic, DOM/React usage, API integrations.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>language</code><br>
-      <b>level:</b> <code>75%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+**Frontend**
+- React — **70%**  `███████░░░`
+- JavaScript — **75%**  `████████░░`
+- TypeScript — **65%**  `███████░░░`
+- HTML/CSS — **70%**  `███████░░░`
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_typescript</code></h4></td>
-    <td rowspan="2">
-      <p><b>TypeScript — 65%</b> <code>███████░░░</code></p>
-      <p>Typing, safer React components, cleaner contracts.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>language</code><br>
-      <b>level:</b> <code>65%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+**Tooling**
+- Git — **75%**  `████████░░`
+- Docker — **55%**  `██████░░░░`
+- Linux — **60%**  `██████░░░░`
+- Automation (PowerShell/CLI) — **70%**  `███████░░░`
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_react</code></h4></td>
-    <td rowspan="2">
-      <p><b>React — 70%</b> <code>███████░░░</code></p>
-      <p>SPA pages, routing, components, fetching patterns.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>frontend</code><br>
-      <b>level:</b> <code>70%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+---
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_postgresql</code></h4></td>
-    <td rowspan="2">
-      <p><b>PostgreSQL — 70%</b> <code>███████░░░</code></p>
-      <p>Schema design, queries, joins, data modeling for apps.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>database</code><br>
-      <b>level:</b> <code>70%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+## 🧠 Şu an (Now)
+- ✅ Daha iyi API tasarımı (validation, pagination, auth, permission)
+- ✅ React tarafında komponent düzeni + routing + fetch standardı
+- 🔁 Test alışkanlığı (unit + smoke) oturtma
+- 🔜 CI/CD temelleri (GitHub Actions)
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_git</code></h4></td>
-    <td rowspan="2">
-      <p><b>Git — 75%</b> <code>████████░░</code></p>
-      <p>Daily workflow: branching, PRs, clean commits.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>tool</code><br>
-      <b>level:</b> <code>75%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+---
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_docker</code></h4></td>
-    <td rowspan="2">
-      <p><b>Docker — 55%</b> <code>██████░░░░</code></p>
-      <p>Containers for dev envs, basic images & compose.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>tool</code><br>
-      <b>level:</b> <code>55%</code><br>
-      <b>default:</b> optional<br>
-    </td>
-  </tr>
+## 🗺️ Roadmap (Check-list)
+- [ ] Daha iyi error handling + logging standardı  
+- [ ] Caching (Redis) + background jobs (Celery/RQ)  
+- [ ] Docker compose ile “dev env” tek komut  
+- [ ] Frontend: reusable UI patterns + form validation  
+- [ ] Daha derli toplu proje dökümantasyonu
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_linux</code></h4></td>
-    <td rowspan="2">
-      <p><b>Linux — 60%</b> <code>██████░░░░</code></p>
-      <p>CLI, permissions, basic server hygiene.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>os</code><br>
-      <b>level:</b> <code>60%</code><br>
-      <b>default:</b> optional<br>
-    </td>
-  </tr>
+---
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_powershell</code></h4></td>
-    <td rowspan="2">
-      <p><b>PowerShell — 70%</b> <code>███████░░░</code></p>
-      <p>Automation, scripting, tooling on Windows workflows.</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>automation</code><br>
-      <b>level:</b> <code>70%</code><br>
-      <b>default:</b> yes<br>
-    </td>
-  </tr>
+## 🧩 Featured Projects
+> Burayı kendi projelerinle doldur kanka. 2-3 tane “en iyi” yeter.
 
-  <tr>
-    <td nowrap="nowrap"><h4><code>skill_limit</code></h4></td>
-    <td rowspan="2">
-      <p><b>Display limit</b> (how many skills to show in this section)</p>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">
-      <b>type:</b> <code>number</code><br>
-      <b>range:</b> <i>(0 ≤ x ≤ 20)</i><br>
-      <b>zero behaviour:</b> disable<br>
-      <b>default:</b> 12<br>
-    </td>
-  </tr>
-</table>
-<!--/options-->
+### ⭐ Project One — kısa açıklama
+- Tech: **Django/DRF + PostgreSQL**
+- Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_ONE
 
-## ℹ️ Examples workflows
+### ⭐ Project Two — kısa açıklama
+- Tech: **React + TypeScript + Vite**
+- Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_TWO
 
-<!--examples-->
-```yaml
-name: Compact (icons only)
-section:
-  title: "Tech Stack"
-  icons_path: "skill-icons-main/icons"
-  icons:
-    - Python-Dark
-    - Django
-    - React-Dark
-    - TypeScript
-    - PostgreSQL-Dark
-    - Git
-    - Docker
-  note: "Short & clean row of icons"
+### ⭐ Project Three — kısa açıklama
+- Tech: **Automation / Tooling**
+- Repo: https://github.com/YOUR_GITHUB_USERNAME/PROJECT_THREE
+
+---
+
+## 📊 GitHub Stats (Görsel zengin)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" />
+</p>
+
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&no-frame=true&row=1&column=6" />
+</p>
+
+---
+
+## 🧾 Mini Notlar (İstersen kalsın)
+- “Az ama kaliteli repo” felsefesi: kısa README + kurulum + örnek kullanım.
+- Gereksiz şişirmeden: net açıklama, net görsel, net çıktı.
+
+---
+
+## 🤝 İletişim
+- Mail: **YOURMAIL@example.com**
+- LinkedIn: **https://www.linkedin.com/in/YOUR_LINKEDIN/**
+- Portfolio: **https://YOURPORTFOLIO.com**
+
+<p align="center">
+  <sub>Last updated: <b>2026</b> • Built with ❤️ + Markdown</sub>
+</p>
