@@ -1,8 +1,8 @@
-
+<!--header-->
 <table>
   <tr><td colspan="2"><a href="/README.md#-plugins">← Back to plugins index</a></td></tr>
-  <tr><th colspan="2"><h3>📌 Tech Stack</h3></th></tr>
-  <tr><td colspan="2" align="center"><p>This plugin displays <a href="https://github.com/stars?filter=topics">Tech Stack</a>.</p>
+  <tr><th colspan="2"><h3>📌 Starred topics</h3></th></tr>
+  <tr><td colspan="2" align="center"><p>This plugin displays <a href="https://github.com/stars?filter=topics">starred topics</a>.</p>
 <p>Check out <a href="https://github.com/topics">GitHub topics</a> to search interesting topics.</p>
 </td></tr>
   <tr><th>⚠️ Disclaimer</th><td><p>This plugin is not affiliated, associated, authorized, endorsed by, or in any way officially connected with <a href="https://github.com">GitHub</a>.
@@ -102,3 +102,28 @@ All product and company names are trademarks™ or registered® trademarks of th
 
 ## ℹ️ Examples workflows
 
+<!--examples-->
+```yaml
+name: Labels
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.topics.svg
+  token: NOT_NEEDED
+  base: ""
+  plugin_topics: yes
+  plugin_topics_limit: 12
+
+```
+```yaml
+name: Icons
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.topics.icons.svg
+  token: NOT_NEEDED
+  base: ""
+  plugin_topics: yes
+  plugin_topics_limit: 0
+  plugin_topics_mode: icons
+
+```
+<!--/examples--> bu 1
