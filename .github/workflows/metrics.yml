@@ -2,7 +2,7 @@ name: Metrics (StarLists & Topics)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # her gün
+    - cron: "0 0 * * *"   # her gün 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -12,8 +12,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-
-      # ⭐ Repositories from Star Lists
+      # ⭐ Repositories from star lists
       - name: Star lists repositories
         uses: lowlighter/metrics@latest
         with:
@@ -23,7 +22,7 @@ jobs:
           plugin_starlists: yes
           filename: metrics/metrics.plugin.starlists.svg
 
-      # 📊 Languages from Star Lists
+      # 📊 Languages from star lists
       - name: Star lists languages
         uses: lowlighter/metrics@latest
         with:
@@ -34,7 +33,7 @@ jobs:
           plugin_starlists_languages: yes
           filename: metrics/metrics.plugin.starlists.languages.svg
 
-      # 🏷 Starred Topics with Icons
+      # 🏷 Starred topics (with icons)
       - name: Starred topics icons
         uses: lowlighter/metrics@latest
         with:
