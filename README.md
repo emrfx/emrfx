@@ -64,7 +64,9 @@
 
 ### 📊 Languages from Star Lists
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
+  <img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,powershell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,django,nodejs,postgres,redis&theme=dark" />
 </p>
 
 
