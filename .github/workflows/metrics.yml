@@ -16,16 +16,10 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
           user: emrfx
-          template: classic
           base: ""
-          config_timezone: Europe/Istanbul
-
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: graph
-
           filename: metrics/metrics.plugin.stargazers.svg
 
