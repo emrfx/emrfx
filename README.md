@@ -1,6 +1,5 @@
 # emrfx
 
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,25,30&height=280&section=header&text=Efe%20Emre%20Bakırözü&fontSize=60&fontAlignY=32&animation=fadeIn&desc=Architecting%20the%20Future%20with%20Code%20&descSize=25&descAlignY=55" width="100%" />
 </div>
@@ -12,6 +11,7 @@
 </div>
 
 <div align="center">
+  <!-- Linklerin yoksa bu 3 satırı silebilirsin -->
   <a href="https://linkedin.com/in/YOUR_LINKEDIN">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -103,11 +103,11 @@
       <code>read:user</code> • <code>repo</code> • <code>Google Maps API (Harita için)</code>
     </td>
   </tr>
+</table>
 
-  <tr>
-    <td colspan="2" align="center">
-      <br />
-      ## 🌍 Stargazers Haritası & Grafik
+<br/>
+
+## 🌍 Stargazers Haritası & Grafik
 
 <details open>
   <summary><b>🌍 Dünya Haritası (Worldmap)</b></summary>
@@ -125,13 +125,10 @@
   </a>
 </details>
 
-      
-  </tr>
-</table>
+<br/>
 
 <details>
   <summary><b>➡️ Kullanılabilir Seçenekler (Options)</b></summary>
-
   <br/>
 
   <table>
@@ -169,31 +166,30 @@
 
 <details>
   <summary><b>ℹ️ Örnek Workflow (YAML)</b></summary>
-
   <br/>
 
-  > **Pro Tip:** Eğer dünya haritasını kullanmayacaksan Google Maps token'ına ihtiyacın yok.
+> **Pro Tip:** Dünya haritasını kullanmayacaksan Google Maps token'ına ihtiyacın yok.
 
-  ```yaml
-  # 1) Standart Grafik Görünümü
-  - uses: lowlighter/metrics@latest
-    with:
-      filename: metrics/metrics.plugin.stargazers.svg
-      token: ${{ secrets.METRICS_TOKEN }}
-      base: ""
-      plugin_stargazers: yes
-      plugin_stargazers_charts_type: graph
+```yaml
+# 1) Standart Grafik Görünümü
+- uses: lowlighter/metrics@latest
+  with:
+    filename: metrics/metrics.plugin.stargazers.svg
+    token: ${{ secrets.METRICS_TOKEN }}
+    base: ""
+    plugin_stargazers: yes
+    plugin_stargazers_charts_type: graph
 
-  # 2) Dünya Haritası Görünümü (Google Maps API Gerekli)
-  - uses: lowlighter/metrics@latest
-    with:
-      filename: metrics/metrics.plugin.stargazers.worldmap.svg
-      token: ${{ secrets.METRICS_TOKEN }}
-      base: ""
-      plugin_stargazers: yes
-      plugin_stargazers_charts: no
-      plugin_stargazers_worldmap: yes
-      plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+# 2) Dünya Haritası Görünümü (Google Maps API Gerekli)
+- uses: lowlighter/metrics@latest
+  with:
+    filename: metrics/metrics.plugin.stargazers.worldmap.svg
+    token: ${{ secrets.METRICS_TOKEN }}
+    base: ""
+    plugin_stargazers: yes
+    plugin_stargazers_charts: no
+    plugin_stargazers_worldmap: yes
+    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
 
 # 2. Dünya Haritası Görünümü (Google Maps API Gerekli)
 - uses: lowlighter/metrics@latest
