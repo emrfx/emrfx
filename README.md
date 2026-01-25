@@ -174,9 +174,8 @@
 
 <details>
   <summary><b>ℹ️ Örnek Workflow (YAML)</b></summary>
-  <br/>
 
-> **Pro Tip:** Worldmap istemiyorsan Google Maps token gerekmez.
+  <br/>
 
 ```yaml
 # 1) Grafik (Google key gerektirmez)
