@@ -1,4 +1,4 @@
-name: Metrics (Worldmap)
+name: Metrics (Stargazers)
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Stargazers Worldmap
+      - name: Generate Stargazers Chart
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -24,10 +24,8 @@ jobs:
           config_timezone: Europe/Istanbul
 
           plugin_stargazers: yes
-          plugin_stargazers_charts: no
-          plugin_stargazers_worldmap: no
-          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
-          plugin_stargazers_worldmap_sample: 200
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: graph
 
-          filename: metrics/metrics.plugin.stargazers.worldmap.svg
+          filename: metrics/metrics.plugin.stargazers.svg
 
