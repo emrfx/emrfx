@@ -56,13 +56,12 @@
 <hr/>
 ## ⭐ Star Lists
 
-<details open>
-  <summary><b>📦 Repositories from Star lists</b></summary>
-  <br/>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
-  </p>
-</details>
+## ⭐ Repositories from Star Lists
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
+</p>
+
 
 <details open>
   <summary><b>📊 Languages from Star lists</b></summary>
