@@ -54,6 +54,22 @@
 </table>
 
 <hr/>
+## ⭐ Star Lists & Topics
+
+### 📦 Repositories from Star Lists
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
+</p>
+
+### 📊 Languages from Star Lists
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
+</p>
+
+### 🏷 Starred Topics (With Icons)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.topics.icons.svg" width="95%" />
+</p>
 
 <h2 align="center">⚡ Engineering Metrics</h2>
 
