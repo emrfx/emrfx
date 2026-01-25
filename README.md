@@ -1,6 +1,5 @@
 # emrfx
 
-![Metrics](metrics/metrics.plugin.stargazers.worldmap.svg)
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,25,30&height=280&section=header&text=Efe%20Emre%20Bakırözü&fontSize=60&fontAlignY=32&animation=fadeIn&desc=Architecting%20the%20Future%20with%20Code%20&descSize=25&descAlignY=55" width="100%" />
