@@ -61,9 +61,10 @@
   <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
 </p>
 
+
 ### 📊 Languages from Star Lists
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,postgres&theme=dark" />
+  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
 </p>
 
 ### 🏷 Starred Topics (With Icons)
