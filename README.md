@@ -102,9 +102,8 @@
   <tr>
     <th width="30%">🔑 Gerekli İzinler</th>
     <td>
-      <code>read:user</code> • <code>repo</code>
-      <br/>
-      <sub>Worldmap için ayrıca <b>Google Maps API Key</b> gerekir.</sub>
+      <code>read:user</code> • <code>repo</code><br/>
+      <sub><b>Not:</b> Worldmap tamamen opsiyonel. İstersen Google key ile açılır; istemiyorsan sadece grafik yeter.</sub>
     </td>
   </tr>
 </table>
@@ -114,7 +113,7 @@
 ## 🌍 Stargazers Haritası & Grafik
 
 <details open>
-  <summary><b>📈 Grafik (Classic/Graph)</b></summary>
+  <summary><b>📈 Grafik (Classic/Graph) ✅ (Ücretsiz)</b></summary>
   <br/>
   <p align="center">
     <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.svg">
@@ -124,25 +123,24 @@
 </details>
 
 <details>
-  <summary><b>🌍 Dünya Haritası (Worldmap)</b> <sub>(opsiyonel)</sub></summary>
+  <summary><b>🌍 Dünya Haritası (Worldmap) (Opsiyonel)</b></summary>
   <br/>
   <p align="center">
     <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
       <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg" width="95%" alt="Stargazers Worldmap" />
     </a>
   </p>
-  <sub>Harita boş görünüyorsa: workflow worldmap üretmiyor / Google token yok.</sub>
+  <sub>Harita boş görünüyorsa: workflow worldmap üretmiyor / Google token yok. (İstemiyorsan sorun değil)</sub>
 </details>
 
 <br/>
 
 <details>
   <summary><b>ℹ️ Örnek Workflow (YAML)</b></summary>
-
   <br/>
 
+### ✅ 1) Sadece Grafik (Google yok, ödeme yok)
 ```yaml
-# 1) Grafik (Google key gerektirmez)
 - uses: lowlighter/metrics@latest
   with:
     token: ${{ secrets.METRICS_TOKEN }}
@@ -151,17 +149,5 @@
     plugin_stargazers: yes
     plugin_stargazers_charts_type: graph
     filename: metrics/metrics.plugin.stargazers.svg
-
-# 2) Worldmap (Google Maps API Key gerekir)
-- uses: lowlighter/metrics@latest
-  with:
-    token: ${{ secrets.METRICS_TOKEN }}
-    user: emrfx
-    base: ""
-    plugin_stargazers: yes
-    plugin_stargazers_charts: no
-    plugin_stargazers_worldmap: yes
-    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
-    filename: metrics/metrics.plugin.stargazers.worldmap.svg
 ```
 </details>
