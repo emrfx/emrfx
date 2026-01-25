@@ -107,32 +107,25 @@
   <tr>
     <td colspan="2" align="center">
       <br />
+      ## 🌍 Stargazers Haritası & Grafik
 
-      <!-- Worldmap (SENDE OLAN DOSYA) -->
-      <details open><summary><b>🌐 Dünya Haritası (Worldmap)</b></summary>
-        <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
-          <img
-            src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg"
-            alt="Worldmap - Click to view"
-            width="95%"
-          />
-        </a>
-      </details>
+<details open>
+  <summary><b>🌍 Dünya Haritası (Worldmap)</b></summary>
+  <br/>
+  <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg" width="95%" />
+  </a>
+</details>
 
-      <!-- Classic chart (OPSİYONEL: metrics.yml bunu üretirse görünür) -->
-      <details><summary><b>📈 Grafik Görünümü (Classic / Graph)</b></summary>
-        <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.svg">
-          <img
-            src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.svg"
-            alt="Classic Chart - Click to view"
-            width="95%"
-          />
-        </a>
-        <p><i>Not: Bu görsel çıkmıyorsa metrics.yml dosyanda chart output’u üretilmiyordur.</i></p>
-      </details>
+<details>
+  <summary><b>📈 Grafik (Classic)</b></summary>
+  <br/>
+  <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.svg">
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.svg" width="95%" />
+  </a>
+</details>
 
-      <img width="900" height="1" alt="spacer">
-    </td>
+      
   </tr>
 </table>
 
