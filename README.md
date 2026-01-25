@@ -141,13 +141,31 @@
 
 ### ✅ 1) Sadece Grafik (Google yok, ödeme yok)
 ```yaml
-- uses: lowlighter/metrics@latest
-  with:
-    token: ${{ secrets.METRICS_TOKEN }}
-    user: emrfx
-    base: ""
-    plugin_stargazers: yes
-    plugin_stargazers_charts_type: graph
-    filename: metrics/metrics.plugin.stargazers.svg
+name: Metrics (Stargazers)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Stargazers Chart
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: emrfx
+          template: classic
+          base: ""
+          config_timezone: Europe/Istanbul
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
+          filename: metrics/metrics.plugin.stargazers.svg
 ```
 </details>
