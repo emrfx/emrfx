@@ -100,7 +100,9 @@
   <tr>
     <th width="30%">🔑 Gerekli İzinler</th>
     <td>
-      <code>read:user</code> • <code>repo</code> • <code>Google Maps API (Harita için)</code>
+      <code>read:user</code> • <code>repo</code>
+      <br/>
+      <sub>Worldmap istersen ayrıca <b>Google Maps API Key</b> gerekir.</sub>
     </td>
   </tr>
 </table>
@@ -109,21 +111,26 @@
 
 ## 🌍 Stargazers Haritası & Grafik
 
-<details open>
-  <summary><b>🌍 Dünya Haritası (Worldmap)</b></summary>
+<!-- ✅ Worldmap dosyası varsa görünür; yoksa boş çıkar -->
+<details>
+  <summary><b>🌍 Dünya Haritası (Worldmap)</b> <sub>(opsiyonel)</sub></summary>
   <br/>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.svg" width="95%" />
+    <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
+      <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg" width="95%" alt="Stargazers Worldmap" />
+    </a>
   </p>
-  ****
 </details>
 
-<details>
-  <summary><b>📈 Grafik (Classic)</b></summary>
+<!-- ✅ Bu kesin çalışır (token ile grafik üretiliyorsa) -->
+<details open>
+  <summary><b>📈 Grafik (Classic/Graph)</b></summary>
   <br/>
-  <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.svg">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.svg" width="95%" />
-  </a>
+  <p align="center">
+    <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.svg">
+      <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.svg" width="95%" alt="Stargazers Chart" />
+    </a>
+  </p>
 </details>
 
 <br/>
@@ -148,7 +155,7 @@
       </tr>
       <tr>
         <td><code>plugin_stargazers_charts_type</code></td>
-        <td>Grafik tipi: <code>classic</code> (hafif) veya <code>graph</code> (pürüzsüz).</td>
+        <td>Grafik tipi: <code>classic</code> veya <code>graph</code>.</td>
         <td><b>classic</b></td>
       </tr>
       <tr>
@@ -158,7 +165,7 @@
       </tr>
       <tr>
         <td><code>plugin_stargazers_worldmap</code></td>
-        <td>Yıldız verenlerin dünya haritasını gösterir.</td>
+        <td>Dünya haritasını açar (Google key gerekir).</td>
         <td><b>no</b></td>
       </tr>
     </tbody>
@@ -169,36 +176,29 @@
   <summary><b>ℹ️ Örnek Workflow (YAML)</b></summary>
   <br/>
 
-> **Pro Tip:** Dünya haritasını kullanmayacaksan Google Maps token'ına ihtiyacın yok.
+> **Pro Tip:** Worldmap istemiyorsan Google Maps token gerekmez.
 
 ```yaml
-# 1) Standart Grafik Görünümü
+# 1) Grafik (Google key gerektirmez)
 - uses: lowlighter/metrics@latest
   with:
-    filename: metrics/metrics.plugin.stargazers.svg
     token: ${{ secrets.METRICS_TOKEN }}
+    user: emrfx
     base: ""
     plugin_stargazers: yes
     plugin_stargazers_charts_type: graph
+    filename: metrics/metrics.plugin.stargazers.svg
 
-# 2) Dünya Haritası Görünümü (Google Maps API Gerekli)
+# 2) Worldmap (Google Maps API Key gerekir)
 - uses: lowlighter/metrics@latest
   with:
+    token: ${{ secrets.METRICS_TOKEN }}
+    user: emrfx
+    base: ""
+    plugin_stargazers: yes
+    plugin_stargazers_charts: no
+    plugin_stargazers_worldmap: yes
+    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
     filename: metrics/metrics.plugin.stargazers.worldmap.svg
-    token: ${{ secrets.METRICS_TOKEN }}
-    base: ""
-    plugin_stargazers: yes
-    plugin_stargazers_charts: no
-    plugin_stargazers_worldmap: yes
-    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
-
-# 2. Dünya Haritası Görünümü (Google Maps API Gerekli)
-- uses: lowlighter/metrics@latest
-  with:
-    filename: metrics.plugin.stargazers.worldmap.svg
-    token: ${{ secrets.METRICS_TOKEN }}
-    base: ""
-    plugin_stargazers: yes
-    plugin_stargazers_charts: no
-    plugin_stargazers_worldmap: yes
-    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+```
+</details>
