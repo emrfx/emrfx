@@ -61,10 +61,12 @@
   <table border="0" width="100%">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=emrfx&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117" width="100%" />
+        <!-- İstersen C yerine GitHub ikon: &rank_icon=github -->
+        <img src="https://github-readme-stats.vercel.app/api?username=emrfx&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117&rank_icon=github" width="100%" />
       </td>
       <td width="50%" align="center">
-        <img src="https://streak-stats.demolab.com/?user=emrfx&theme=radical&hide_border=true&bg_color=0d1117" width="100%" />
+        <!-- DÜZELTME: bg_color yerine background -->
+        <img src="https://streak-stats.demolab.com?user=emrfx&theme=radical&hide_border=true&background=0d1117" width="100%" />
       </td>
     </tr>
   </table>
@@ -158,7 +160,6 @@
     base: ""
     plugin_stargazers: yes
     plugin_stargazers_charts: no
-    plugin_stargazers_worldmap: no
+    plugin_stargazers_worldmap: yes
+    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
     filename: metrics/metrics.plugin.stargazers.worldmap.svg
-```
-</details>
