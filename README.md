@@ -112,9 +112,10 @@
 <details open>
   <summary><b>🌍 Dünya Haritası (Worldmap)</b></summary>
   <br/>
-  <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg" width="95%" />
-  </a>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.svg" width="95%" />
+  </p>
+  ****
 </details>
 
 <details>
