@@ -102,7 +102,7 @@
     <td>
       <code>read:user</code> • <code>repo</code>
       <br/>
-      <sub>Worldmap istersen ayrıca <b>Google Maps API Key</b> gerekir.</sub>
+      <sub>Worldmap için ayrıca <b>Google Maps API Key</b> gerekir.</sub>
     </td>
   </tr>
 </table>
@@ -111,18 +111,6 @@
 
 ## 🌍 Stargazers Haritası & Grafik
 
-<!-- ✅ Worldmap dosyası varsa görünür; yoksa boş çıkar -->
-<details>
-  <summary><b>🌍 Dünya Haritası (Worldmap)</b> <sub>(opsiyonel)</sub></summary>
-  <br/>
-  <p align="center">
-    <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
-      <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg" width="95%" alt="Stargazers Worldmap" />
-    </a>
-  </p>
-</details>
-
-<!-- ✅ Bu kesin çalışır (token ile grafik üretiliyorsa) -->
 <details open>
   <summary><b>📈 Grafik (Classic/Graph)</b></summary>
   <br/>
@@ -133,44 +121,18 @@
   </p>
 </details>
 
-<br/>
-
 <details>
-  <summary><b>➡️ Kullanılabilir Seçenekler (Options)</b></summary>
+  <summary><b>🌍 Dünya Haritası (Worldmap)</b> <sub>(opsiyonel)</sub></summary>
   <br/>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Parametre</th>
-        <th>Açıklama</th>
-        <th>Varsayılan</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>plugin_stargazers</code></td>
-        <td>Eklentiyi aktif eder.</td>
-        <td><b>no</b></td>
-      </tr>
-      <tr>
-        <td><code>plugin_stargazers_charts_type</code></td>
-        <td>Grafik tipi: <code>classic</code> veya <code>graph</code>.</td>
-        <td><b>classic</b></td>
-      </tr>
-      <tr>
-        <td><code>plugin_stargazers_days</code></td>
-        <td>Analiz edilecek gün sayısı (0 = hesap açılışından beri).</td>
-        <td><b>14</b></td>
-      </tr>
-      <tr>
-        <td><code>plugin_stargazers_worldmap</code></td>
-        <td>Dünya haritasını açar (Google key gerekir).</td>
-        <td><b>no</b></td>
-      </tr>
-    </tbody>
-  </table>
+  <p align="center">
+    <a href="https://github.com/emrfx/emrfx/blob/main/metrics/metrics.plugin.stargazers.worldmap.svg">
+      <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.stargazers.worldmap.svg" width="95%" alt="Stargazers Worldmap" />
+    </a>
+  </p>
+  <sub>Harita boş görünüyorsa: workflow worldmap üretmiyor / Google token yok.</sub>
 </details>
+
+<br/>
 
 <details>
   <summary><b>ℹ️ Örnek Workflow (YAML)</b></summary>
@@ -196,8 +158,7 @@
     base: ""
     plugin_stargazers: yes
     plugin_stargazers_charts: no
-    plugin_stargazers_worldmap: yes
-    plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+    plugin_stargazers_worldmap: no
     filename: metrics/metrics.plugin.stargazers.worldmap.svg
 ```
 </details>
