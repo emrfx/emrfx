@@ -59,7 +59,7 @@
 ## ⭐ Repositories from Star Lists
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/emrfx/emrfx/metrics/metrics/metrics.plugin.starlists.svg" width="95%" />
+  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
 </p>
 
 
@@ -67,7 +67,7 @@
   <summary><b>📊 Languages from Star lists</b></summary>
   <br/>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/metrics/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
   </p>
 </details>
 
