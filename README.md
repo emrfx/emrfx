@@ -61,11 +61,11 @@
   <table border="0" width="100%">
     <tr>
       <td width="50%" align="center">
-        <!-- İstersen C yerine GitHub ikon: &rank_icon=github -->
+        <!-- ✅ C yerine GitHub rank ikonu -->
         <img src="https://github-readme-stats.vercel.app/api?username=emrfx&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117&rank_icon=github" width="100%" />
       </td>
       <td width="50%" align="center">
-        <!-- DÜZELTME: bg_color yerine background -->
+        <!-- ✅ Resim sorunu fix: bg_color değil background -->
         <img src="https://streak-stats.demolab.com?user=emrfx&theme=radical&hide_border=true&background=0d1117" width="100%" />
       </td>
     </tr>
@@ -163,3 +163,5 @@
     plugin_stargazers_worldmap: yes
     plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
     filename: metrics/metrics.plugin.stargazers.worldmap.svg
+```
+</details>
