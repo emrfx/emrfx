@@ -2,7 +2,7 @@ name: Metrics (Stargazers)
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # her gün 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -19,7 +19,7 @@ jobs:
           user: emrfx
           base: ""
           plugin_stargazers: yes
-          plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: graph
           filename: metrics/metrics.plugin.stargazers.svg
+
 
