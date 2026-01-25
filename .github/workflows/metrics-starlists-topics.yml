@@ -1,4 +1,4 @@
-name: Metrics (StarLists & Topics)
+name: Metrics (StarLists)
 
 on:
   schedule:
@@ -12,8 +12,9 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # 1) StarLists (repos listesi)
-      - name: Star lists (repos)
+
+      # ⭐ Repositories from Star Lists
+      - name: Star lists repositories
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -22,8 +23,8 @@ jobs:
           plugin_starlists: yes
           filename: metrics/metrics.plugin.starlists.svg
 
-      # 2) StarLists (languages)
-      - name: Star lists (languages)
+      # 📊 Languages from Star Lists
+      - name: Star lists languages
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
