@@ -56,18 +56,21 @@
 <hr/>
 ## ⭐ Star Lists & Topics
 
-### 📦 Repositories from Star Lists
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
-</p>
+<details open>
+  <summary><b>📦 Repositories from Star lists</b></summary>
+  <br/>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
+  </p>
+</details>
 
-
-### 📊 Languages from Star Lists
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,powershell&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=python,django,nodejs,postgres,redis&theme=dark" />
-</p>
+<details open>
+  <summary><b>📊 Languages from Star lists</b></summary>
+  <br/>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
+  </p>
+</details>
 
 
 ### 🏷 Starred Topics (With Icons)
