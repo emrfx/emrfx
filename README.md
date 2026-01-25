@@ -54,13 +54,13 @@
 </table>
 
 <hr/>
-## ⭐ Star Lists & Topics
+## ⭐ Star Lists
 
 <details open>
   <summary><b>📦 Repositories from Star lists</b></summary>
   <br/>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
   </p>
 </details>
 
@@ -68,7 +68,7 @@
   <summary><b>📊 Languages from Star lists</b></summary>
   <br/>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.svg" width="95%" />
+    <img src="https://raw.githubusercontent.com/emrfx/emrfx/main/metrics/metrics.plugin.starlists.languages.svg" width="95%" />
   </p>
 </details>
 
